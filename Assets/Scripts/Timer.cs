@@ -16,6 +16,7 @@ public class Timer : MonoBehaviour
      public bool IsTimerActive;
     void Update()
     {
+        //kjvhjgcjhgchj
         if (IsTimerActive)
         {
             gameObject.GetComponent<Image>().fillAmount = MinTime / MaxTime;
